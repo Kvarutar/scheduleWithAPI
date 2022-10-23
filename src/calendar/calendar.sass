@@ -1,0 +1,63 @@
+.calendar
+    &__dates
+        margin-top: 50px
+        display: flex
+        justify-content: center
+        align-items: center
+    &__borders
+        font-style: normal
+        font-weight: 400
+        font-size: 24px
+        color: #000000
+        border: 1px solid #000000
+        padding: 21px 71px
+        margin-left: 12px
+        margin-right: 12px
+    &__btns
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__queue
+        margin-left: 10px
+    &__switcher
+        margin-top: 14px
+        display: flex
+        justify-content: center
+        align-items: center
+        &-btn
+            position: relative
+            font-style: normal
+            font-weight: 400
+            font-size: 14px
+            line-height: 17px
+            color: #000000
+            transition: 0.3s all
+            &:first-child
+                margin-right: 74px
+            &::after
+                content: " "
+                width: 0
+                height: 1px
+                position: absolute
+                bottom: 0
+                left: 0
+                background-color: black
+                transition: 0.3s all
+            &:hover
+                &::after
+                    width: 100%
+            &_active
+                &::after
+                    content: " "
+                    width: 100%
+                    height: 1px
+                    position: absolute
+                    bottom: 0
+                    left: 0
+                    background-color: black
+                    transition: 0.3s all
+                
+        
+
+        
+

@@ -1,0 +1,15 @@
+@import url("../font/stylesheet.css");
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter';
+}
+button{
+	border: none;
+	cursor: pointer;
+	background: none;
+}
+.container{
+	max-width: 935px;
+	margin: 0 auto;
+}
